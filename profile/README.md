@@ -1,19 +1,17 @@
 # 생성형 AI기반 PDF 인식 단어장 애플리케이션
 
-
-# 2024 전남대학교 소프트웨어공학과 캡스톤 프로젝트
-
 ## 프로젝트 개요
-본 프로젝트에서는 PDF 및 이미지 파일에서 단어를 추출하고, 단어장 관리 및 학습 기능을 제공하는 것을 목표로 한다.
+본 프로젝트는 2024 전남대학교 소프트웨어공학과 캡스톤 프로젝트로 진행 하였으며 안드로이드 환경에서 PDF 및 이미지 파일에서 단어를 추출하고, 단어장 관리 및 학습 기능을 제공하는 것을 목표로 한다.
 
+**프로젝트 대상자**
 1. 영어 본문을 번역기에 의존하지 않고 원문 그대로 이해하고자 하는 사용자
 2. 논문, 소설, 기사 등 영어 원문을 그대로 읽고자 하는 사용자
 3. 개인적으로 선택한 글을 학습하려는 사용자
 
 ## 프로젝트 아키텍처 설계
 
-### 유스케이스 다이어그램
-<img src="/img/image10.png" style="zoom:67%;" />
+#### 유스케이스 다이어그램
+<img src="/img/image10.jpg" style="zoom:67%;" />
 
 ###
 
@@ -123,7 +121,7 @@ gantt
 
 | 로그인 화면 | ID 입력 | PWD 입력 | 입력 오류 알림 |
 |------|------|------|------|
-| <img src="/img/image26.png" style="zoom:67%;" /> | <img src="/img/image27.png" style="zoom:67%;" /> | <img src="/img/image27.png" style="zoom:67%;" /> | <img src="/img/image28.png" style="zoom:67%;" /> |
+| <img src="/img/image26.png" style="zoom:63%;" /> | <img src="/img/image27.png" style="zoom:67%;" /> | <img src="/img/image27.png" style="zoom:67%;" /> | <img src="/img/image28.png" style="zoom:67%;" /> |
 
 ---
 
@@ -131,7 +129,7 @@ gantt
 
 | 단어장 목록 화면 | 단어장 생성 | 단어장 삭제(슬라이드) | 단어장 삭제(확인) |
 |------|------|------|------|
-| <img src="/img/image29.png" style="zoom:67%;" /> | <img src="/img/image30.png" style="zoom:67%;" /> | <img src="/img/image31.png" style="zoom:67%;" /> | <img src="/img/image32.png" style="zoom:67%;" /> |
+| <img src="/img/image29.png" style="zoom:67%;" /> | <img src="/img/image30.png" style="zoom:67%;" /> | <img src="/img/image31.png" style="zoom:56%;" /> | <img src="/img/image32.png" style="zoom:70%;" /> |
 
 ---
 
@@ -155,7 +153,7 @@ gantt
 
 | 추출 결과 화면 | 단어 선택 | 단어장 선택 | 저장 확인 |
 |------|------|------|------|
-| <img src="/img/image41.png" style="zoom:67%;" /> | <img src="/img/image42.png" style="zoom:67%;" /> | <img src="/img/image43.png" style="zoom:67%;" /> | <img src="/img/image44.png" style="zoom:67%;" /> |
+| <img src="/img/image41.png" style="zoom:80%;" /> | <img src="/img/image42.png" style="zoom:77%;" /> | <img src="/img/image43.png" style="zoom:67%;" /> | <img src="/img/image44.png" style="zoom:77%;" /> |
 
 ---
 
@@ -163,7 +161,7 @@ gantt
 
 | 예문 보기 화면 | 예문 해석 | 예문 초기화 | 새로운 예문 해석 |
 |------|------|------|------|
-| <img src="/img/image45.png" style="zoom:67%;" /> | <img src="/img/image46.png" style="zoom:67%;" /> | <img src="/img/image47.png" style="zoom:67%;" /> | <img src="/img/image48.png" style="zoom:67%;" /> |
+| <img src="/img/image45.png" style="zoom:75%;" /> | <img src="/img/image46.png" style="zoom:75%;" /> | <img src="/img/image47.png" style="zoom:67%;" /> | <img src="/img/image48.png" style="zoom:67%;" /> |
 
 ---
 
@@ -187,7 +185,7 @@ gantt
 
 | 학습 페이지 도입부 화면 | 문제 예시 보기 | 단어장 선택 | 단어장 적재 확인 |
 |------|------|------|------|
-| <img src="/img/image57.png" style="zoom:67%;" /> | <img src="/img/image58.png" style="zoom:67%;" /> | <img src="/img/image59.png" style="zoom:67%;" /> | <img src="/img/image60.png" style="zoom:67%;" /> |
+| <img src="/img/image57.png" style="zoom:67%;" /> | <img src="/img/image58.png" style="zoom:79%;" /> | <img src="/img/image59.png" style="zoom:67%;" /> | <img src="/img/image60.png" style="zoom:67%;" /> |
 
 ---
 
@@ -195,25 +193,27 @@ gantt
 
 | 단어 학습 화면 | 보기 선택 (1개 제한) | 정답 및 뜻 확인 | 다음 단어 학습(슬라이드) |
 |------|------|------|------|
-| <img src="/img/image61.png" style="zoom:67%;" /> | <img src="/img/image62.png" style="zoom:67%;" /> | <img src="/img/image63.png" style="zoom:67%;" /> | <img src="/img/image64.png" style="zoom:67%;" /> |
+| <img src="/img/image61.png" style="zoom:67%;" /> | <img src="/img/image62.png" style="zoom:67%;" /> | <img src="/img/image63.png" style="zoom:67%;" /> | <img src="/img/image64.png" style="zoom:43%;" /> |
 
 
 ## 시연 영상
 <img src="/img/demo_video.gif" style="zoom:100%;" />
 
 ## 향후 과제
-
-### AI 답변에 검증기능 추가
+**AI 답변에 검증기능 추가**
 현재 앱의 답변은 ai의 실수가 고려되어 있지 않으므로 pdf로부터 단어 추출 후, 영어사전을 검색하고 주려고 했던 문맥상 의미와 가장 가까운 뜻을 제공하는 기능을 추가할 수 있다. 이와 같은 방법으로 사용자에게 정확한 정보의 전달을 기대할 수 있을 것이다.
 
-
-### 다양한 언어로의 확장
+**다양한 언어로의 확장**
 다른 대규모 언어 모델 (LLM) 기반의 서비스를 제공하며 자연어처리를 하기 때문에 추후 영어가 아닌 다른 언어로의 유연한 확장성을 기대할 수 있을 것이다.
-### 예문 생성 기능의 확장
+
+**예문 생성 기능의 확장**
 PDF 텍스트 추출 및 단어와 예문 제공 기능 외에도, 사용자가 제공하는 다양한 상황이 반영된 예문 생성 기능을 추가하여 여러 문맥에서 단어의 사용방법을 학습할 수 있을 것이다.
-### 수준별 학습 기능 추가
+
+**수준별 학습 기능 추가**
 학습 페이지에서 문장구조의 수준과 학습 단어의 난이도를 고려하며, 유럽 언어 표준등급(CEFR)을 기반으로 예문과 선지를 구성하도록 지원할 예정이다.
-### 결제 및 구독 서비스 추가
+
+**결제 및 구독 서비스 추가**
 또한, 결제 및 구독 기능을 추가하여 계정 별 온라인 저장 서비스를 지원하고, 서비스를 구독제로 판매할 예정이다.
-### 학습 기반 사용자 수준 진단
+
+**학습 기반 사용자 수준 진단**
 사용자가 학습한 단어정보를 기반으로 사용자가 CEFR 기준으로 어느 수준까지 학습했는지에 대한 통계 데이터를 시각적으로 제공할 예정이다.
