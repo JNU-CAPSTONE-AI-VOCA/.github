@@ -1,11 +1,13 @@
-## Hi there 👋
+# 생성형 AI기반 PDF 인식 단어장 애플리케이션
 
+# 2024 전남대학교 소프트웨어공학과 캡스톤 프로젝트
 
-**Here are some ideas to get you started:**
+## 프로젝트 개요
+본 프로젝트에서는 PDF 및 이미지 파일에서 단어를 추출하고, 단어장 관리 및 학습 기능을 제공하는 것을 목표로 한다.
 
-- 🙋‍♀️ A short introduction - what is your organization all about?
-- 🌈 Contribution guidelines - how can the community get involved?
-- 👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-- 🍿 Fun facts - what does your team eat for breakfast?
-- 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+1. 영어 본문을 번역기에 의존하지 않고 원문 그대로 이해하고자 하는 사용자
+2. 논문, 소설, 기사 등 영어 원문을 그대로 읽고자 하는 사용자
+3. 개인적으로 선택한 글을 학습하려는 사용자
+
+## 프로젝트 아키텍처 설계
 
